@@ -1,0 +1,39 @@
+.light:root {
+  --c-primary: #fff;
+  --c-theme: rgba(29, 161, 242, 1);
+  --c-theme-20: rgba(29, 161, 242, 0.2);
+  --c-border-color: #afafaf;
+  --c-gray: #6e767d;
+  --c-dark-gray: #202327;
+  --c-text-color: #000;
+  --fade: 120ms;
+  --c-box: #0a0a0a;
+  --c-overlay: rgba(0, 0, 0, 0.3);
+}
+
+.dark:root {
+  --c-primary: #0a0a0a;
+  --c-theme: rgba(29, 161, 242, 1);
+  --c-theme-20: rgba(29, 161, 242, 0.2);
+  --c-border-color: #2f3336;
+  --c-gray: #6e767d;
+  --c-dark-gray: #202327;
+  --c-text-color: #ffffff;
+  --fade: 120ms;
+
+  --c-box: rgba(29, 161, 242, 1);
+  --c-overlay: rgba(255, 255, 255, 0.3);
+}
+
+.dim:root {
+  --c-primary: #16202a;
+  --c-theme: rgba(29, 161, 242, 1);
+  --c-theme-20: rgba(29, 161, 242, 0.2);
+  --c-border-color: #2f3336;
+  --c-gray: #6e767d;
+  --c-dark-gray: #202327;
+  --c-text-color: #ffffff;
+  --fade: 120ms;
+  --c-box: #fff;
+  --c-overlay: rgba(0, 0, 0, 0.3);
+}

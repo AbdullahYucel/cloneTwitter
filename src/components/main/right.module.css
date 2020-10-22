@@ -1,0 +1,10 @@
+.right {
+  background-color: var(--c-primary);
+}
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  color: deepskyblue;
+}

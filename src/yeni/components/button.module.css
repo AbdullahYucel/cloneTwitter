@@ -1,0 +1,27 @@
+.button {
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--c-text-color);
+  border-radius: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  transition: var(--fade);
+  text-decoration: none;
+}
+.button:hover {
+  background-color: var(--c-theme-20);
+  color: var(--c-theme);
+}
+.fullWidth {
+  width: 100% !important;
+}
+@media screen and (max-width: 980px) {
+  .button {
+    color: #ffffff;
+    transition: 120ms;
+  }
+  .button:hover {
+    background-color: rgba(29, 161, 242, 0.2);
+  }
+}

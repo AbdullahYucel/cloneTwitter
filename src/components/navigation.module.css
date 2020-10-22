@@ -1,0 +1,19 @@
+.nav button > button {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.nav {
+  /* margin-left: 20%; */
+  margin-top: 20%;
+  font-size: 22px;
+  font-weight: bold;
+}
+.select {
+  color: var(--c-theme);
+  background-color: transparent;
+}
+.normal {
+  background-color: transparent;
+}

@@ -1,0 +1,19 @@
+.right {
+  background-color: var(--c-primary);
+  height: 100%;
+  min-height: 100vh;
+  height: auto !important;
+}
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  color: deepskyblue;
+}
+
+@media screen and (max-width: 980px) {
+  .right {
+    background-color: #0a0a0a;
+  }
+}

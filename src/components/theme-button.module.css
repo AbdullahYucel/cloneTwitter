@@ -1,0 +1,25 @@
+.themeButton {
+  background-color: var(--c-theme);
+  color: #fff;
+  padding: 0 15px;
+  height: 40px;
+  font-weight: bold;
+  margin-left: -4%;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+.themeButton:hover {
+  background-color: var(--c-primary);
+  border: 2px solid;
+  border-color: var(--c-theme);
+  color: var(--c-theme);
+}
+.fullWidth {
+  width: 80%;
+  margin-left: 0;
+}
+.tweet {
+  margin: 0;
+}

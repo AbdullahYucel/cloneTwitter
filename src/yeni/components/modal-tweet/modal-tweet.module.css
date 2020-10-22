@@ -1,0 +1,76 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--c-overlay);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal {
+  max-width: 450px;
+  width: 100%;
+
+  background-color: var(--c-primary);
+  border-radius: 20px;
+  padding: 20px;
+  display: block;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  border-color: white;
+
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: var(--c-gray);
+}
+
+.text {
+  resize: none;
+  outline: none;
+  color: var(--c-text-color);
+  background-color: transparent;
+  font-size: 1.5em;
+  margin-left: 15px;
+  display: block;
+  width: 100%;
+}
+.header {
+  justify-content: flex-start;
+  padding: 0 0 5px 0;
+}
+.footer {
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: flex-end;
+  display: flex;
+}
+.close {
+  margin-right: 0;
+  color: var(--c-gray);
+}
+.twit {
+  margin-left: 0;
+  margin-top: 5px;
+  right: 0;
+}
+
+@media screen and (max-width: 980px) {
+  .overlay {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  .modal {
+    background-color: #0a0a0a;
+  }
+  .content {
+    border-color: #6e767d;
+  }
+  .text {
+    color: #fff;
+  }
+}

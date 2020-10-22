@@ -1,0 +1,15 @@
+.photo {
+  width: 47px;
+  flex-shrink: 0;
+}
+
+.img {
+  display: block;
+  border-radius: 99px;
+  width: 100%;
+}
+.big {
+  width: 65px;
+  border: 2px solid aqua;
+  border-radius: 99px;
+}

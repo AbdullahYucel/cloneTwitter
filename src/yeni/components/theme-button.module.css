@@ -1,0 +1,37 @@
+.themeButton {
+  background-color: var(--c-theme);
+  color: #fff;
+  padding: 0 15px;
+  height: 40px;
+  font-weight: bold;
+  margin-left: -4%;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+.themeButton:hover {
+  background-color: var(--c-primary);
+  border: 2px solid;
+  border-color: var(--c-theme);
+  color: var(--c-theme);
+}
+.fullWidth {
+  width: 80%;
+  margin-left: 0;
+}
+.tweet {
+  margin: 0;
+}
+
+@media screen and (max-width: 980px) {
+  .themeButton {
+    background-color: rgba(29, 161, 242, 1);
+    color: #fff;
+  }
+  .themeButton:hover {
+    background-color: #0a0a0a;
+    border-color: rgba(29, 161, 242, 1);
+    color: rgba(29, 161, 242, 1);
+  }
+}
